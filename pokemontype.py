@@ -280,3 +280,11 @@ class Normal:
     print(f"{pokemon} used Giga Impact! It did {damage} damage!")
     enemypoké.health -= damage
     return enemypoké.health
+class Ice:
+  @staticmethod
+  def icicle_spear(pokemon,enemypoké):
+    possible_damage=random.randint(6,7)
+    times = random.randint(2,5)
+    damage=times*possible_damage
+    
+    print(f"{pokemon} used Icicle spear
