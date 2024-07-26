@@ -286,5 +286,13 @@ class Ice:
     possible_damage=random.randint(6,7)
     times = random.randint(2,5)
     damage=times*possible_damage
+    print(f"{pokemon} used Icicle Spear! It did {damage} damage!")
+    enemypoké.health -= damage
+    return enemypoké.health
+  @staticmethod
+  def ice_beam(pokemon,enemypoké):
+    damage=random.randint(13,18)
+    print(f"{pokemon} used Ice Beam! It did {damage} damage!")
+    enemypoké.health -= damage
+    return enemypoké.health
     
-    print(f"{pokemon} used Icicle spear
