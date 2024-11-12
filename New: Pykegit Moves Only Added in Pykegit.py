@@ -50,4 +50,4 @@ class Battle:
               break
             elif keyboard.read_key()=="4":
               Water.bubble_beam(self,pokemon,enemypoké)
-              break
+              break    
