@@ -295,4 +295,10 @@ class Ice:
     print(f"{pokemon} used Ice Beam! It did {damage} damage!")
     enemypoké.health -= damage
     return enemypoké.health
-    
+  @staticmethod
+  def snowstorm(pokemon,enemypoké):
+    damage=random.randint(14,17)
+    print(f"{pokemon} used Ice Fang! It did {damage} damage!")
+    enemypoké.health -= damage
+    return enemypoké.health
+  
